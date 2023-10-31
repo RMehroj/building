@@ -38,7 +38,11 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
-    'api.v1.shop.apps.MainpageConfig',
+    'location_field.apps.DefaultConfig',
+    'phonenumber_field',
+
+    'api.v1.mainpage.apps.MainpageConfig',
+ 
 ]
 
 MIDDLEWARE = [
