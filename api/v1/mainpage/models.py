@@ -33,7 +33,7 @@ class Projects(models.Model):
         editable = False
         )
     title = models.CharField(max_length=512)
-    aparttments = models.ManyToManyField(Apartment)
+    apartments = models.ManyToManyField(Apartment, related_name="projects")
     image = models.ImageField(upload_to='static/static_dirs/images/projects/')
     description = models.TextField()
     finish_date = models.DateField()
