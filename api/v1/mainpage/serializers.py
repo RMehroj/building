@@ -12,3 +12,4 @@ class ProjectsSerializer(serializers.ModelSerializer):
     class Meta:
         model = Projects
         fields = ['title', 'apartments', 'image', 'description', 'finish_date', 'created_at', 'update_at']
+
