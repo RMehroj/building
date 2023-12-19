@@ -23,7 +23,7 @@ class Apartment(models.Model):
         db_table = 'Aparttment'
 
     def __str__(self):
-        return str(self.uuid)
+        return str(self.floor)
 
 
 class Projects(models.Model):
@@ -87,7 +87,7 @@ class SalesOffice(models.Model):
         db_table = 'SalesOffice'
 
     def __str__(self):
-        return self.projects
+        return str(self.projects)
 
 
 class Newsroom(models.Model):

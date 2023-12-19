@@ -57,7 +57,7 @@ class SalesOfficeSerializer(DynamicFieldsModelSerializer):
         read_only=True,
         fields=["social_network"],
     )
-    class Meta:
+    class Meta: 
         model = models.SalesOffice
         fields = [
             'uuid',

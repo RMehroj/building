@@ -22,3 +22,4 @@ class ProjectsDetailView(generics.RetrieveUpdateDestroyAPIView):
     queryset = Projects.objects.all()
     serializer_class = ProjectsSerializer
 
+
